@@ -118,7 +118,7 @@ erDiagram
    - Configure database connection
 
 2. **Database Integration**
-   - Set up TypeORM or Prisma ORM
+   - Set up TypeORM
    - Create database migration system
    - Define core database entities
    - Create initial migrations
