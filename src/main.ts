@@ -10,7 +10,7 @@ async function bootstrap() {
   const configService = app.get(ConfigService);
   
   // Get configuration
-  const port = configService.get<number>('app.port') || 3000;
+  const port = configService.get<number>('app.port') || 3005;
   const environment = configService.get<string>('app.environment') || 'development';
   
   // Remove the global prefix to match frontend expectations
