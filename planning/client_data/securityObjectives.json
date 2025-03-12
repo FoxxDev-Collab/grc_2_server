@@ -1,0 +1,62 @@
+{
+  "securityObjectives": [
+    {
+      "id": "obj-001",
+      "clientId": 1,
+      "name": "Implement Multi-Factor Authentication",
+      "description": "Implement MFA across all critical systems to enhance access security",
+      "priority": "High",
+      "status": "In Progress",
+      "progress": 60,
+      "dueDate": "2025-06-30T00:00:00Z",
+      "metrics": {
+        "successCriteria": [
+          "MFA enabled for all admin accounts",
+          "MFA enabled for all user accounts",
+          "MFA compliance monitoring implemented"
+        ],
+        "currentMetrics": [
+          "Admin accounts secured with MFA"
+        ]
+      }
+    },
+    {
+      "id": "obj-002",
+      "clientId": 1,
+      "name": "Vulnerability Management Program",
+      "description": "Establish a comprehensive vulnerability management program",
+      "priority": "High",
+      "status": "Planning",
+      "progress": 20,
+      "dueDate": "2025-08-15T00:00:00Z",
+      "metrics": {
+        "successCriteria": [
+          "Regular vulnerability scanning implemented",
+          "Patch management process established",
+          "Vulnerability remediation SLAs defined"
+        ],
+        "currentMetrics": []
+      }
+    },
+    {
+      "id": "obj-003",
+      "clientId": 1,
+      "name": "Data Backup and Recovery",
+      "description": "Improve data backup procedures and implement disaster recovery testing",
+      "priority": "Medium",
+      "status": "In Progress",
+      "progress": 40,
+      "dueDate": "2025-07-20T00:00:00Z",
+      "metrics": {
+        "successCriteria": [
+          "Automated daily backups implemented",
+          "Quarterly recovery testing established",
+          "Offsite backup storage configured"
+        ],
+        "currentMetrics": [
+          "Automated daily backups implemented"
+        ]
+      }
+    }
+  ]
+}

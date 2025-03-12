@@ -1,0 +1,142 @@
+{
+  "incidents": [
+    {
+      "id": 1,
+      "clientId": 1,
+      "title": "Unauthorized Access Attempt",
+      "type": "security",
+      "severity": "high",
+      "status": "active", 
+      "priority": "high",
+      "createdAt": "2024-02-19T08:00:00Z",
+      "updatedAt": "2024-02-19T10:30:00Z",
+      "resolvedAt": null,
+      "assignedTo": "Security Operations",
+      "description": "Multiple failed login attempts detected from suspicious IP addresses",
+      "affectedSystems": ["Authentication Server", "User Database"],
+      "actions": [
+        {
+          "id": 1,
+          "type": "detection",
+          "timestamp": "2024-02-19T08:00:00Z",
+          "description": "IDS detected multiple failed login attempts",
+          "performedBy": "Security Operations"
+        },
+        {
+          "id": 2,
+          "type": "mitigation",
+          "timestamp": "2024-02-19T08:15:00Z",
+          "description": "IP addresses temporarily blocked",
+          "performedBy": "Alice Brown"
+        },
+        {
+          "id": 3,
+          "type": "investigation",
+          "timestamp": "2024-02-19T10:30:00Z",
+          "description": "Analysis of login attempt patterns",
+          "performedBy": "Security Operations"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "clientId": 1,
+      "title": "Data Backup Failure",
+      "type": "system",
+      "severity": "medium",
+      "status": "resolved",
+      "priority": "medium",
+      "createdAt": "2024-02-18T15:00:00Z",
+      "updatedAt": "2024-02-18T17:45:00Z",
+      "resolvedAt": "2024-02-18T17:45:00Z",
+      "assignedTo": "Information Technology",
+      "description": "Scheduled backup job failed due to storage capacity issues",
+      "affectedSystems": ["Backup System", "Storage System"],
+      "actions": [
+        {
+          "id": 1,
+          "type": "detection",
+          "timestamp": "2024-02-18T15:00:00Z",
+          "description": "Backup job failure alert received",
+          "performedBy": "Information Technology"
+        },
+        {
+          "id": 2,
+          "type": "investigation",
+          "timestamp": "2024-02-18T15:30:00Z",
+          "description": "Storage capacity analysis performed",
+          "performedBy": "David Wilson"
+        },
+        {
+          "id": 3,
+          "type": "resolution",
+          "timestamp": "2024-02-18T17:45:00Z",
+          "description": "Additional storage allocated and backup job rerun successfully",
+          "performedBy": "Information Technology"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "clientId": 1,
+      "title": "SSL Certificate Expiration",
+      "type": "security",
+      "severity": "medium",
+      "status": "active",
+      "priority": "high",
+      "createdAt": "2024-02-19T09:00:00Z",
+      "updatedAt": "2024-02-19T09:30:00Z",
+      "resolvedAt": null,
+      "assignedTo": "Security Operations",
+      "description": "SSL certificate for main website approaching expiration",
+      "affectedSystems": ["Web Server"],
+      "actions": [
+        {
+          "id": 1,
+          "type": "detection",
+          "timestamp": "2024-02-19T09:00:00Z",
+          "description": "Certificate expiration alert received",
+          "performedBy": "Security Operations"
+        },
+        {
+          "id": 2,
+          "type": "mitigation",
+          "timestamp": "2024-02-19T09:30:00Z",
+          "description": "Certificate renewal process initiated",
+          "performedBy": "Alice Brown"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "clientId": 1,
+      "title": "Network Performance Degradation",
+      "type": "network",
+      "severity": "high",
+      "status": "investigating",
+      "priority": "high",
+      "createdAt": "2024-02-19T11:00:00Z",
+      "updatedAt": "2024-02-19T11:45:00Z",
+      "resolvedAt": null,
+      "assignedTo": "Network Operations",
+      "description": "Users reporting slow network performance and intermittent connectivity issues",
+      "affectedSystems": ["Network Infrastructure", "Cloud Services"],
+      "actions": [
+        {
+          "id": 1,
+          "type": "detection",
+          "timestamp": "2024-02-19T11:00:00Z",
+          "description": "Multiple user reports of slow network performance",
+          "performedBy": "Information Technology"
+        },
+        {
+          "id": 2,
+          "type": "investigation",
+          "timestamp": "2024-02-19T11:45:00Z",
+          "description": "Network monitoring analysis initiated",
+          "performedBy": "Sarah Johnson"
+        }
+      ]
+    }
+  ]
+}

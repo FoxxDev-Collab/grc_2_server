@@ -1,0 +1,57 @@
+{
+  "incidentTypes": [
+    { "id": 1, "name": "security" },
+    { "id": 2, "name": "system" },
+    { "id": 3, "name": "network" },
+    { "id": 4, "name": "application" },
+    { "id": 5, "name": "hardware" },
+    { "id": 6, "name": "software" },
+    { "id": 7, "name": "data" },
+    { "id": 8, "name": "user" },
+    { "id": 9, "name": "other" }
+  ],
+  "incidentSeverities": [
+    { "id": 1, "name": "critical" },
+    { "id": 2, "name": "high" },
+    { "id": 3, "name": "medium" },
+    { "id": 4, "name": "low" }
+  ],
+  "incidentStatuses": [
+    { "id": 1, "name": "active" },
+    { "id": 2, "name": "investigating" },
+    { "id": 3, "name": "mitigated" },
+    { "id": 4, "name": "resolved" },
+    { "id": 5, "name": "closed" }
+  ],
+  "incidentPriorities": [
+    { "id": 1, "name": "critical" },
+    { "id": 2, "name": "high" },
+    { "id": 3, "name": "medium" },
+    { "id": 4, "name": "low" }
+  ],
+  "actionTypes": [
+    { "id": 1, "name": "detection" },
+    { "id": 2, "name": "investigation" },
+    { "id": 3, "name": "mitigation" },
+    { "id": 4, "name": "resolution" },
+    { "id": 5, "name": "communication" },
+    { "id": 6, "name": "escalation" }
+  ],
+  "teams": [
+    { "id": 1, "name": "Information Technology" },
+    { "id": 2, "name": "Security Operations" },
+    { "id": 3, "name": "Risk & Compliance" },
+    { "id": 4, "name": "Network Operations" }
+  ],
+  "systemTypes": [
+    { "id": 1, "name": "Web Server" },
+    { "id": 2, "name": "Database Server" },
+    { "id": 3, "name": "Authentication Server" },
+    { "id": 4, "name": "Network Infrastructure" },
+    { "id": 5, "name": "Storage System" },
+    { "id": 6, "name": "Backup System" },
+    { "id": 7, "name": "End User Systems" },
+    { "id": 8, "name": "Security Systems" },
+    { "id": 9, "name": "Cloud Services" }
+  ]
+}

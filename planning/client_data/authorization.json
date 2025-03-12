@@ -1,0 +1,68 @@
+{
+  "authorizationPackages": [
+    {
+      "id": 1,
+      "systemId": "sys-001",
+      "clientId": 1,
+      "completed": [
+        { "id": 1, "name": "System Security Plan" },
+        { "id": 2, "name": "Risk Assessment Report" }
+      ],
+      "pending": [
+        { "id": 1, "name": "Privacy Impact Assessment" },
+        { "id": 2, "name": "Contingency Plan" }
+      ],
+      "executiveSummary": "System implements moderate security controls with some gaps identified.",
+      "status": "in-progress",
+      "validationStatus": "pending",
+      "completionPercentage": 65,
+      "createdAt": "2024-02-10",
+      "updatedAt": "2024-02-10"
+    }
+  ],
+  "authorizationDecisions": [
+    {
+      "id": 1,
+      "systemId": "sys-001",
+      "clientId": 1,
+      "result": "pending",
+      "official": "",
+      "date": "",
+      "expirationDate": "",
+      "justification": "",
+      "conditions": [
+        { "id": 1, "description": "Implement automated account management" },
+        { "id": 2, "description": "Complete security assessment" }
+      ],
+      "boundary": "System includes all components within the development network segment.",
+      "createdAt": "2024-02-10",
+      "updatedAt": "2024-02-10"
+    }
+  ],
+  "authorizationRisks": [
+    {
+      "id": "RISK-001",
+      "systemId": "sys-001",
+      "clientId": 1,
+      "description": "Insufficient access controls",
+      "likelihood": "high",
+      "impact": "high",
+      "status": "open",
+      "createdAt": "2024-02-10",
+      "updatedAt": "2024-02-10"
+    }
+  ],
+  "nonCompliantControls": [
+    {
+      "id": 1,
+      "systemId": "sys-001",
+      "clientId": 1,
+      "controlId": "AC-2",
+      "title": "Account Management",
+      "status": "non-compliant",
+      "findings": "Missing automated account management procedures",
+      "createdAt": "2024-02-10",
+      "updatedAt": "2024-02-10"
+    }
+  ]
+}

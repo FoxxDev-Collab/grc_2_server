@@ -1,0 +1,235 @@
+{
+  "roles": [
+    {
+      "id": "PROGRAM_MANAGER",
+      "name": "PROGRAM_MANAGER"
+    },
+    {
+      "id": "ISSM",
+      "name": "ISSM"
+    },
+    {
+      "id": "ISSO",
+      "name": "ISSO"
+    },
+    {
+      "id": "ISSE",
+      "name": "ISSE"
+    },
+    {
+      "id": "SYSTEM_ADMIN",
+      "name": "SYSTEM_ADMIN"
+    }
+  ],
+  "rolePermissions": [
+    {
+      "id": "PROGRAM_MANAGER",
+      "permissions": ["manage_users", "manage_systems", "view_audits", "manage_strategy"]
+    },
+    {
+      "id": "ISSM",
+      "permissions": ["manage_users", "manage_systems", "manage_audits", "manage_strategy"]
+    },
+    {
+      "id": "ISSO",
+      "permissions": ["view_users", "manage_systems", "manage_audits"]
+    },
+    {
+      "id": "ISSE",
+      "permissions": ["view_users", "view_systems", "view_audits"]
+    },
+    {
+      "id": "SYSTEM_ADMIN",
+      "permissions": ["all"]
+    }
+  ],
+  "permissions": [
+    {
+      "id": "manage_users",
+      "name": "manage_users"
+    },
+    {
+      "id": "view_users",
+      "name": "view_users"
+    },
+    {
+      "id": "manage_systems",
+      "name": "manage_systems"
+    },
+    {
+      "id": "view_systems",
+      "name": "view_systems"
+    },
+    {
+      "id": "manage_audits",
+      "name": "manage_audits"
+    },
+    {
+      "id": "view_audits",
+      "name": "view_audits"
+    },
+    {
+      "id": "manage_strategy",
+      "name": "manage_strategy"
+    },
+    {
+      "id": "all",
+      "name": "all"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "john.smith",
+      "email": "john.smith@acme.com",
+      "role": "PROGRAM_MANAGER",
+      "clientId": 1,
+      "firstName": "John",
+      "lastName": "Smith",
+      "title": "Program Manager",
+      "department": "Security",
+      "phone": "(555) 123-4567",
+      "isActive": true,
+      "lastActive": "2024-02-19T10:00:00Z",
+      "permissions": ["manage_users", "manage_systems", "view_audits", "manage_strategy"]
+    },
+    {
+      "id": 2,
+      "username": "sarah.johnson",
+      "email": "sarah.johnson@acme.com",
+      "role": "ISSM",
+      "clientId": 1,
+      "firstName": "Sarah",
+      "lastName": "Johnson",
+      "title": "Information System Security Manager",
+      "department": "Security",
+      "phone": "(555) 234-5678",
+      "isActive": true,
+      "lastActive": "2024-02-19T09:00:00Z",
+      "permissions": ["manage_users", "manage_systems", "manage_audits", "manage_strategy"]
+    },
+    {
+      "id": 3,
+      "username": "mike.wilson",
+      "email": "mike.wilson@acme.com",
+      "role": "ISSO",
+      "clientId": 1,
+      "firstName": "Mike",
+      "lastName": "Wilson",
+      "title": "Information System Security Officer",
+      "department": "IT",
+      "phone": "(555) 345-6789",
+      "isActive": true,
+      "lastActive": "2024-02-19T08:00:00Z",
+      "permissions": ["view_users", "manage_systems", "manage_audits"]
+    },
+    {
+      "id": 4,
+      "username": "alice.brown",
+      "email": "alice.brown@healthcareplus.com",
+      "role": "PROGRAM_MANAGER",
+      "clientId": 2,
+      "firstName": "Alice",
+      "lastName": "Brown",
+      "title": "Security Program Manager",
+      "department": "Security",
+      "phone": "(555) 456-7890",
+      "isActive": true,
+      "lastActive": "2024-02-19T11:00:00Z",
+      "permissions": ["manage_users", "manage_systems", "view_audits", "manage_strategy"]
+    },
+    {
+      "id": 5,
+      "username": "admin",
+      "email": "admin@grc.com",
+      "role": "SYSTEM_ADMIN",
+      "clientId": null,
+      "firstName": "System",
+      "lastName": "Administrator",
+      "title": "System Administrator",
+      "department": "IT",
+      "phone": "(555) 999-9999",
+      "isActive": true,
+      "lastActive": "2024-02-19T12:00:00Z",
+      "permissions": ["all"]
+    }
+  ],
+  "departments": [
+    {
+      "id": "Security",
+      "name": "Security"
+    },
+    {
+      "id": "IT",
+      "name": "IT"
+    },
+    {
+      "id": "Compliance",
+      "name": "Compliance"
+    },
+    {
+      "id": "Risk Management",
+      "name": "Risk Management"
+    },
+    {
+      "id": "Operations",
+      "name": "Operations"
+    },
+    {
+      "id": "Executive",
+      "name": "Executive"
+    }
+  ],
+  "titles": [
+    {
+      "id": "Program Manager",
+      "name": "Program Manager"
+    },
+    {
+      "id": "Information System Security Manager",
+      "name": "Information System Security Manager"
+    },
+    {
+      "id": "Information System Security Officer",
+      "name": "Information System Security Officer"
+    },
+    {
+      "id": "Security Engineer",
+      "name": "Security Engineer"
+    },
+    {
+      "id": "System Administrator",
+      "name": "System Administrator"
+    },
+    {
+      "id": "Security Analyst",
+      "name": "Security Analyst"
+    },
+    {
+      "id": "Compliance Officer",
+      "name": "Compliance Officer"
+    },
+    {
+      "id": "Risk Manager",
+      "name": "Risk Manager"
+    }
+  ],
+  "userStatus": [
+    {
+      "id": "active",
+      "name": "active"
+    },
+    {
+      "id": "inactive",
+      "name": "inactive"
+    },
+    {
+      "id": "suspended",
+      "name": "suspended"
+    },
+    {
+      "id": "pending",
+      "name": "pending"
+    }
+  ]
+}

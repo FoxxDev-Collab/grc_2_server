@@ -1,0 +1,22 @@
+{
+  "objectiveInitiatives": [
+    {
+      "id": "oi-001",
+      "objectiveId": "obj-001",
+      "initiativeId": "init-001",
+      "dateLinked": "2025-01-18T11:20:00Z"
+    },
+    {
+      "id": "oi-002",
+      "objectiveId": "obj-002",
+      "initiativeId": "init-002",
+      "dateLinked": "2025-01-25T15:30:00Z"
+    },
+    {
+      "id": "oi-003",
+      "objectiveId": "obj-003",
+      "initiativeId": "init-003",
+      "dateLinked": "2025-02-10T10:45:00Z"
+    }
+  ]
+}

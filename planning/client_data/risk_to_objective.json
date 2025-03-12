@@ -1,0 +1,22 @@
+{
+  "riskObjectives": [
+    {
+      "id": "ro-001",
+      "riskId": "risk-001",
+      "objectiveId": "obj-001",
+      "dateLinked": "2025-01-15T10:30:00Z"
+    },
+    {
+      "id": "ro-002",
+      "riskId": "risk-002",
+      "objectiveId": "obj-002",
+      "dateLinked": "2025-01-20T14:45:00Z"
+    },
+    {
+      "id": "ro-003",
+      "riskId": "risk-003",
+      "objectiveId": "obj-003",
+      "dateLinked": "2025-02-05T09:15:00Z"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "risks": [
+    {
+      "id": "risk-001",
+      "clientId": 1,
+      "name": "Unauthorized Access to Sensitive Data",
+      "description": "There is a risk of unauthorized access to sensitive customer data due to weak access controls.",
+      "impact": "high",
+      "likelihood": "medium",
+      "category": "Access Control",
+      "status": "open",
+      "lastAssessed": "2024-12-15T10:30:00Z",
+      "sourceFindings": [
+        {
+          "findingId": "f-001",
+          "title": "Weak Password Policy",
+          "sourceType": "security_assessment",
+          "date": "2024-12-15T10:30:00Z"
+        }
+      ],
+      "businessImpact": {
+        "financial": "High potential for fines and legal costs",
+        "operational": "Moderate disruption to operations",
+        "reputational": "Severe damage to customer trust",
+        "compliance": "Violation of data protection regulations"
+      },
+      "treatment": {
+        "approach": "mitigate",
+        "plan": "Implement stronger password policies and multi-factor authentication",
+        "status": "in_progress",
+        "objectives": ["obj-001"]
+      }
+    },
+    {
+      "id": "risk-002",
+      "clientId": 1,
+      "name": "Outdated Software Vulnerabilities",
+      "description": "Critical systems are running outdated software with known security vulnerabilities.",
+      "impact": "high",
+      "likelihood": "high",
+      "category": "Vulnerability Management",
+      "status": "open",
+      "lastAssessed": "2024-12-16T14:45:00Z",
+      "sourceFindings": [
+        {
+          "findingId": "f-002",
+          "title": "Outdated Operating Systems",
+          "sourceType": "security_assessment",
+          "date": "2024-12-16T14:45:00Z"
+        }
+      ],
+      "businessImpact": {
+        "financial": "Potential for significant recovery costs",
+        "operational": "High risk of service disruption",
+        "reputational": "Moderate impact on reputation",
+        "compliance": "Potential compliance issues"
+      },
+      "treatment": {
+        "approach": "mitigate",
+        "plan": "Implement a regular patching schedule and software upgrade policy",
+        "status": "not_started",
+        "objectives": ["obj-002"]
+      }
+    },
+    {
+      "id": "risk-003",
+      "clientId": 1,
+      "name": "Insufficient Backup Procedures",
+      "description": "Current backup procedures do not adequately protect against data loss in case of a disaster.",
+      "impact": "medium",
+      "likelihood": "medium",
+      "category": "Business Continuity",
+      "status": "open",
+      "lastAssessed": "2024-12-18T09:15:00Z",
+      "sourceFindings": [
+        {
+          "findingId": "f-003",
+          "title": "Inadequate Backup Testing",
+          "sourceType": "security_assessment",
+          "date": "2024-12-18T09:15:00Z"
+        }
+      ],
+      "businessImpact": {
+        "financial": "Moderate recovery costs",
+        "operational": "Severe operational disruption possible",
+        "reputational": "Minor reputational impact",
+        "compliance": "Potential regulatory issues"
+      },
+      "treatment": {
+        "approach": "mitigate",
+        "plan": "Implement automated daily backups with regular testing",
+        "status": "in_progress",
+        "objectives": ["obj-003"]
+      }
+    }
+  ]
+}

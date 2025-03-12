@@ -1,0 +1,85 @@
+{
+  "assessmentDocuments": [
+    {
+      "id": "doc-001",
+      "name": "System Security Plan",
+      "expirationDate": "2026-02-20",
+      "lastReviewed": "2025-02-15",
+      "validationNotes": "Annual review completed. Updates required for new controls.",
+      "reviewHistory": [
+        {
+          "id": 1,
+          "date": "2025-02-15",
+          "notes": "Annual review completed. Updates required for new controls."
+        },
+        {
+          "id": 2,
+          "date": "2024-02-15",
+          "notes": "Initial review completed."
+        }
+      ],
+      "clientId": 1,
+      "systemId": "sys-001",
+      "assessmentPlanId": "ap-001",
+      "createdAt": "2024-02-15T00:00:00Z",
+      "updatedAt": "2025-02-15T00:00:00Z"
+    },
+    {
+      "id": "doc-002",
+      "name": "Incident Response Plan",
+      "expirationDate": "2025-03-15",
+      "lastReviewed": "2024-03-15",
+      "validationNotes": "Review needed before expiration",
+      "reviewHistory": [
+        {
+          "id": 1,
+          "date": "2024-03-15",
+          "notes": "Annual review completed. No major changes required."
+        }
+      ],
+      "clientId": 1,
+      "systemId": "sys-001",
+      "assessmentPlanId": "ap-001",
+      "createdAt": "2024-03-15T00:00:00Z",
+      "updatedAt": "2024-03-15T00:00:00Z"
+    },
+    {
+      "id": "doc-003",
+      "name": "Contingency Plan",
+      "expirationDate": "2025-01-10",
+      "lastReviewed": "2024-01-10",
+      "validationNotes": "Document expired. Immediate review required.",
+      "reviewHistory": [
+        {
+          "id": 1,
+          "date": "2024-01-10",
+          "notes": "Annual review completed. Updated recovery procedures."
+        }
+      ],
+      "clientId": 1,
+      "systemId": "sys-001",
+      "assessmentPlanId": "ap-001",
+      "createdAt": "2024-01-10T00:00:00Z",
+      "updatedAt": "2024-01-10T00:00:00Z"
+    },
+    {
+      "id": "doc-004",
+      "name": "Configuration Management Plan",
+      "expirationDate": "2025-06-30",
+      "lastReviewed": "2024-06-30",
+      "validationNotes": "Current and valid",
+      "reviewHistory": [
+        {
+          "id": 1,
+          "date": "2024-06-30",
+          "notes": "Updated to include new system components."
+        }
+      ],
+      "clientId": 1,
+      "systemId": "sys-001",
+      "assessmentPlanId": "ap-001",
+      "createdAt": "2024-06-30T00:00:00Z",
+      "updatedAt": "2024-06-30T00:00:00Z"
+    }
+  ]
+}

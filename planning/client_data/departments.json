@@ -1,0 +1,60 @@
+{
+  "departments": [
+    {
+      "id": 1,
+      "clientId": 1,
+      "name": "Information Technology",
+      "head": "David Wilson",
+      "headTitle": "CTO",
+      "employeeCount": 150,
+      "positions": [
+        { "id": 1, "name": "Software Engineer" },
+        { "id": 2, "name": "System Administrator" },
+        { "id": 3, "name": "Security Analyst" }
+      ],
+      "lastUpdated": "2024-02-19T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "clientId": 1,
+      "name": "Security Operations",
+      "head": "Alice Brown",
+      "headTitle": "CISO",
+      "employeeCount": 50,
+      "positions": [
+        { "id": 1, "name": "Security Engineer" },
+        { "id": 2, "name": "Incident Responder" },
+        { "id": 3, "name": "Security Analyst" }
+      ],
+      "lastUpdated": "2024-02-19T10:00:00Z"
+    },
+    {
+      "id": 3,
+      "clientId": 1,
+      "name": "Risk & Compliance",
+      "head": "Michael Chen",
+      "headTitle": "Risk Director",
+      "employeeCount": 35,
+      "positions": [
+        { "id": 1, "name": "Risk Analyst" },
+        { "id": 2, "name": "Compliance Officer" },
+        { "id": 3, "name": "Auditor" }
+      ],
+      "lastUpdated": "2024-02-19T10:00:00Z"
+    },
+    {
+      "id": 4,
+      "clientId": 1,
+      "name": "Network Operations",
+      "head": "Sarah Johnson",
+      "headTitle": "Network Director",
+      "employeeCount": 45,
+      "positions": [
+        { "id": 1, "name": "Network Engineer" },
+        { "id": 2, "name": "Infrastructure Specialist" },
+        { "id": 3, "name": "Cloud Architect" }
+      ],
+      "lastUpdated": "2024-02-19T10:00:00Z"
+    }
+  ]
+}

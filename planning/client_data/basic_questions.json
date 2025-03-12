@@ -1,0 +1,108 @@
+{
+  "basicQuestions": [
+    {
+      "id": 1,
+      "text": "Is antivirus software installed and updated on all systems?",
+      "impact": "Antivirus helps protect against malware and cyber threats",
+      "category": "System Security",
+      "findingTemplate": {
+        "title": "Missing or outdated antivirus protection",
+        "description": "Systems lack proper antivirus protection or updates are not maintained",
+        "severity": "high",
+        "recommendation": "Install and configure antivirus software on all systems with automatic updates",
+        "category": "System Security"
+      }
+    },
+    {
+      "id": 2,
+      "text": "Are firewalls configured and maintained on all network boundaries?",
+      "impact": "Firewalls help prevent unauthorized network access",
+      "category": "Network Security",
+      "findingTemplate": {
+        "title": "Inadequate firewall protection",
+        "description": "Network boundaries lack proper firewall configuration",
+        "severity": "high",
+        "recommendation": "Deploy and configure firewalls at all network boundaries",
+        "category": "Network Security"
+      }
+    },
+    {
+      "id": 3,
+      "text": "Is multi-factor authentication (MFA) enabled for all critical systems?",
+      "impact": "MFA significantly reduces the risk of unauthorized access",
+      "category": "Access Control",
+      "findingTemplate": {
+        "title": "Missing Multi-Factor Authentication",
+        "description": "Critical systems lack MFA protection",
+        "severity": "high",
+        "recommendation": "Implement MFA for all critical system access",
+        "category": "Access Control"
+      }
+    },
+    {
+      "id": 4,
+      "text": "Are password policies enforced across all systems?",
+      "impact": "Strong password policies are essential for access security",
+      "category": "Access Control",
+      "findingTemplate": {
+        "title": "Insufficient password policies",
+        "description": "Password policies do not meet security requirements",
+        "severity": "high",
+        "recommendation": "Implement and enforce strong password policies",
+        "category": "Access Control"
+      }
+    },
+    {
+      "id": 5,
+      "text": "Is security awareness training provided regularly?",
+      "impact": "Training helps prevent social engineering attacks",
+      "category": "Security Awareness",
+      "findingTemplate": {
+        "title": "Inadequate security awareness training",
+        "description": "Security awareness training is not regularly conducted",
+        "severity": "medium",
+        "recommendation": "Implement regular security awareness training program",
+        "category": "Security Awareness"
+      }
+    },
+    {
+      "id": 6,
+      "text": "Are regular backups performed and tested?",
+      "impact": "Backups are critical for business continuity",
+      "category": "Data Protection",
+      "findingTemplate": {
+        "title": "Insufficient backup procedures",
+        "description": "Backup processes are not adequate or tested",
+        "severity": "high",
+        "recommendation": "Implement comprehensive backup strategy with regular testing",
+        "category": "Data Protection"
+      }
+    },
+    {
+      "id": 7,
+      "text": "Is sensitive data encrypted at rest and in transit?",
+      "impact": "Encryption protects data from unauthorized access",
+      "category": "Data Protection",
+      "findingTemplate": {
+        "title": "Inadequate data encryption",
+        "description": "Sensitive data is not properly encrypted",
+        "severity": "high",
+        "recommendation": "Implement encryption for data at rest and in transit",
+        "category": "Data Protection"
+      }
+    },
+    {
+      "id": 8,
+      "text": "Is patch management performed regularly?",
+      "impact": "Regular patching prevents exploitation of known vulnerabilities",
+      "category": "System Security",
+      "findingTemplate": {
+        "title": "Inadequate patch management",
+        "description": "Systems are not patched regularly",
+        "severity": "high",
+        "recommendation": "Implement regular patch management process",
+        "category": "System Security"
+      }
+    }
+  ]
+}

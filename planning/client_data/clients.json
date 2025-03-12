@@ -1,0 +1,26 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "name": "Acme Corporation",
+      "industry": "Technology",
+      "email": "contact@acme.com",
+      "phone": "(555) 123-4567",
+      "primaryContact": "John Smith",
+      "createdAt": "2024-01-01T10:00:00Z",
+      "lastActivity": "2024-02-19T10:00:00Z",
+      "complianceScore": 85,
+      "status": "active",
+      "address": {
+        "street": "123 Tech Lane",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94105",
+        "country": "USA"
+      },
+      "size": "Enterprise",
+      "employeeCount": 5000,
+      "website": "www.acme.com"
+    }
+  ]
+}

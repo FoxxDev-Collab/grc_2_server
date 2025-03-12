@@ -1,0 +1,173 @@
+{
+  "assessmentHistory": [
+    {
+      "id": "asmt-001",
+      "date": "2025-02-01T08:00:00Z",
+      "type": "basic",
+      "name": "Basic Security Assessment Feb 2025",
+      "score": 75,
+      "status": "completed",
+      "clientId": 1,
+      "systemId": "sys-001",
+      "answers": [
+        {
+          "questionId": 1,
+          "questionType": "basic",
+          "answer": "no",
+          "notes": "Antivirus software outdated on 30% of systems"
+        },
+        {
+          "questionId": 2,
+          "questionType": "basic",
+          "answer": "yes",
+          "notes": "Firewalls properly configured"
+        },
+        {
+          "questionId": 3,
+          "questionType": "basic",
+          "answer": "no",
+          "notes": "MFA not implemented on development systems"
+        },
+        {
+          "questionId": 4,
+          "questionType": "basic",
+          "answer": "yes",
+          "notes": "Password policies enforced through AD"
+        },
+        {
+          "questionId": 5,
+          "questionType": "basic",
+          "answer": "yes",
+          "notes": "Monthly training sessions conducted"
+        },
+        {
+          "questionId": 6,
+          "questionType": "basic",
+          "answer": "no",
+          "notes": "Backup testing not performed regularly"
+        },
+        {
+          "questionId": 7,
+          "questionType": "basic",
+          "answer": "yes",
+          "notes": "Encryption implemented for all sensitive data"
+        },
+        {
+          "questionId": 8,
+          "questionType": "basic",
+          "answer": "yes",
+          "notes": "Regular patch management in place"
+        }
+      ],
+      "generatedFindings": [
+        {
+          "id": "f-001",
+          "sourceQuestionId": 1,
+          "questionType": "basic",
+          "title": "Missing or outdated antivirus protection",
+          "description": "Systems lack proper antivirus protection or updates are not maintained",
+          "severity": "high",
+          "category": "System Security",
+          "recommendation": "Install and configure antivirus software on all systems with automatic updates",
+          "status": "open",
+          "createdDate": "2025-02-01T08:00:00Z"
+        },
+        {
+          "id": "f-002",
+          "sourceQuestionId": 6,
+          "questionType": "basic",
+          "title": "Insufficient backup procedures",
+          "description": "Backup processes are not adequate or tested",
+          "severity": "high",
+          "category": "Data Protection",
+          "recommendation": "Implement comprehensive backup strategy with regular testing",
+          "status": "in_progress",
+          "createdDate": "2025-02-01T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "asmt-002",
+      "date": "2025-02-15T10:00:00Z",
+      "type": "advanced",
+      "name": "NIST 800-53 Assessment Feb 2025",
+      "score": 82,
+      "status": "completed",
+      "clientId": 1,
+      "systemId": "sys-001",
+      "answers": [
+        {
+          "questionId": "AU-2-Q1",
+          "questionType": "advanced",
+          "answer": "no",
+          "notes": "Audit logging not configured on all systems"
+        },
+        {
+          "questionId": "CM-2-Q1",
+          "questionType": "advanced",
+          "answer": "no",
+          "notes": "Baseline configurations not documented"
+        },
+        {
+          "questionId": "SI-4-Q1",
+          "questionType": "advanced",
+          "answer": "partial",
+          "notes": "Monitoring implemented but not comprehensive"
+        },
+        {
+          "questionId": "AC-2-Q1",
+          "questionType": "advanced",
+          "answer": "yes",
+          "notes": "Automated account management implemented"
+        },
+        {
+          "questionId": "SC-7-Q1",
+          "questionType": "advanced",
+          "answer": "yes",
+          "notes": "Boundary protection mechanisms in place"
+        }
+      ],
+      "generatedFindings": [
+        {
+          "id": "f-003",
+          "sourceQuestionId": "AU-2-Q1",
+          "questionType": "advanced",
+          "title": "Inadequate audit logging",
+          "description": "Systems do not have proper audit event logging configured",
+          "severity": "high",
+          "category": "Audit and Accountability",
+          "recommendation": "Define and implement comprehensive audit logging",
+          "status": "completed",
+          "createdDate": "2025-02-15T10:00:00Z",
+          "nistControl": "AU-2"
+        },
+        {
+          "id": "f-004",
+          "sourceQuestionId": "CM-2-Q1",
+          "questionType": "advanced",
+          "title": "Missing baseline configurations",
+          "description": "Systems lack documented baseline configurations",
+          "severity": "high",
+          "category": "Configuration Management",
+          "recommendation": "Develop and maintain baseline configurations for all systems",
+          "status": "open",
+          "createdDate": "2025-02-15T10:00:00Z",
+          "nistControl": "CM-2"
+        },
+        {
+          "id": "f-005",
+          "sourceQuestionId": "SI-4-Q1",
+          "questionType": "advanced",
+          "title": "Insufficient system monitoring",
+          "description": "System lacks proper monitoring capability",
+          "severity": "high",
+          "category": "System and Information Integrity",
+          "recommendation": "Implement comprehensive system monitoring",
+          "status": "in_progress",
+          "createdDate": "2025-02-15T10:00:00Z",
+          "nistControl": "SI-4"
+        }
+      ]
+    }
+  ]
+}

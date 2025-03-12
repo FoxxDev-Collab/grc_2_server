@@ -1,0 +1,109 @@
+{
+  "securityInitiatives": [
+    {
+      "id": "init-001",
+      "clientId": 1,
+      "name": "MFA Implementation Project",
+      "description": "Project to implement multi-factor authentication across all systems",
+      "phase": "Implementation",
+      "timeline": "Q2 2025",
+      "status": "In Progress",
+      "objectiveId": "obj-001",
+      "milestones": [
+        {
+          "id": "ms-001",
+          "name": "MFA Solution Selection",
+          "completed": true,
+          "dueDate": "2025-04-15T00:00:00Z"
+        },
+        {
+          "id": "ms-002",
+          "name": "Admin Account MFA Implementation",
+          "completed": true,
+          "dueDate": "2025-05-15T00:00:00Z"
+        },
+        {
+          "id": "ms-003",
+          "name": "User Account MFA Implementation",
+          "completed": false,
+          "dueDate": "2025-06-15T00:00:00Z"
+        }
+      ],
+      "resources": {
+        "team": ["Security Team", "IT Operations"],
+        "budget": "$50,000",
+        "tools": ["Okta", "Microsoft Authenticator"]
+      }
+    },
+    {
+      "id": "init-002",
+      "clientId": 1,
+      "name": "Vulnerability Management Implementation",
+      "description": "Establish vulnerability scanning and patch management processes",
+      "phase": "Design",
+      "timeline": "Q3 2025",
+      "status": "Planning",
+      "objectiveId": "obj-002",
+      "milestones": [
+        {
+          "id": "ms-004",
+          "name": "Vulnerability Scanner Selection",
+          "completed": true,
+          "dueDate": "2025-05-30T00:00:00Z"
+        },
+        {
+          "id": "ms-005",
+          "name": "Initial Vulnerability Assessment",
+          "completed": false,
+          "dueDate": "2025-07-15T00:00:00Z"
+        },
+        {
+          "id": "ms-006",
+          "name": "Patch Management Process Definition",
+          "completed": false,
+          "dueDate": "2025-08-01T00:00:00Z"
+        }
+      ],
+      "resources": {
+        "team": ["Security Team", "IT Operations"],
+        "budget": "$75,000",
+        "tools": ["Tenable", "Microsoft SCCM"]
+      }
+    },
+    {
+      "id": "init-003",
+      "clientId": 1,
+      "name": "Backup and Recovery Enhancement",
+      "description": "Improve backup procedures and implement disaster recovery testing",
+      "phase": "Implementation",
+      "timeline": "Q3 2025",
+      "status": "In Progress",
+      "objectiveId": "obj-003",
+      "milestones": [
+        {
+          "id": "ms-007",
+          "name": "Backup Solution Upgrade",
+          "completed": true,
+          "dueDate": "2025-05-01T00:00:00Z"
+        },
+        {
+          "id": "ms-008",
+          "name": "Automated Backup Implementation",
+          "completed": true,
+          "dueDate": "2025-06-01T00:00:00Z"
+        },
+        {
+          "id": "ms-009",
+          "name": "Recovery Testing Procedure Development",
+          "completed": false,
+          "dueDate": "2025-07-15T00:00:00Z"
+        }
+      ],
+      "resources": {
+        "team": ["IT Operations", "Disaster Recovery Team"],
+        "budget": "$60,000",
+        "tools": ["Veeam", "AWS S3"]
+      }
+    }
+  ]
+}

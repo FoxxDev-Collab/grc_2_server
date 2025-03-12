@@ -1,0 +1,454 @@
+{
+  "advancesQuestions": [
+    {
+      "id": "AC-1-Q1",
+      "controlId": "AC-1",
+      "text": "Has the organization developed and documented access control policies and procedures?",
+      "impact": "Access control policies are fundamental to system security",
+      "category": "Access Control",
+      "findingTemplate": {
+        "title": "Missing access control policies and procedures",
+        "description": "Organization lacks documented access control policies and procedures",
+        "severity": "high",
+        "recommendation": "Develop and document comprehensive access control policies and procedures",
+        "category": "Access Control",
+        "nistControl": "AC-1"
+      }
+    },
+    {
+      "id": "AC-2-Q1",
+      "controlId": "AC-2",
+      "text": "Does the organization implement automated account management processes?",
+      "impact": "Automated account management ensures consistent access control",
+      "category": "Access Control",
+      "findingTemplate": {
+        "title": "Lack of automated account management",
+        "description": "Account management processes are not automated",
+        "severity": "high",
+        "recommendation": "Implement automated account management system",
+        "category": "Access Control",
+        "nistControl": "AC-2"
+      }
+    },
+    {
+      "id": "AC-2-Q2",
+      "controlId": "AC-2",
+      "text": "Are account creation, modification, and termination processes documented and followed?",
+      "impact": "Proper account lifecycle management prevents unauthorized access",
+      "category": "Access Control",
+      "findingTemplate": {
+        "title": "Inadequate account lifecycle management",
+        "description": "Account management processes are not properly documented or followed",
+        "severity": "high",
+        "recommendation": "Document and implement account lifecycle management procedures",
+        "category": "Access Control",
+        "nistControl": "AC-2"
+      }
+    },
+    {
+      "id": "AC-3-Q1",
+      "controlId": "AC-3",
+      "text": "Is role-based access control (RBAC) implemented across all systems?",
+      "impact": "RBAC ensures proper access enforcement",
+      "category": "Access Control",
+      "findingTemplate": {
+        "title": "Missing role-based access control",
+        "description": "Systems do not implement role-based access control",
+        "severity": "high",
+        "recommendation": "Implement RBAC across all systems",
+        "category": "Access Control",
+        "nistControl": "AC-3"
+      }
+    },
+    {
+      "id": "AC-4-Q1",
+      "controlId": "AC-4",
+      "text": "Are information flow controls implemented between system components?",
+      "impact": "Information flow control prevents unauthorized data transfer",
+      "category": "Access Control",
+      "findingTemplate": {
+        "title": "Missing information flow controls",
+        "description": "System lacks proper information flow controls between components",
+        "severity": "high",
+        "recommendation": "Implement information flow controls between system components",
+        "category": "Access Control",
+        "nistControl": "AC-4"
+      }
+    },
+    {
+      "id": "AC-5-Q1",
+      "controlId": "AC-5",
+      "text": "Is separation of duties enforced through assigned access authorizations?",
+      "impact": "Separation of duties prevents abuse of privileges",
+      "category": "Access Control",
+      "findingTemplate": {
+        "title": "Lack of separation of duties",
+        "description": "System does not enforce separation of duties through access controls",
+        "severity": "high",
+        "recommendation": "Implement separation of duties in access authorizations",
+        "category": "Access Control",
+        "nistControl": "AC-5"
+      }
+    },
+    {
+      "id": "AC-6-Q1",
+      "controlId": "AC-6",
+      "text": "Is the principle of least privilege enforced for all user types?",
+      "impact": "Least privilege minimizes potential damage from accidents or malicious acts",
+      "category": "Access Control",
+      "findingTemplate": {
+        "title": "Insufficient least privilege implementation",
+        "description": "System does not properly enforce principle of least privilege",
+        "severity": "high",
+        "recommendation": "Implement least privilege access controls",
+        "category": "Access Control",
+        "nistControl": "AC-6"
+      }
+    },
+    {
+      "id": "AU-2-Q1",
+      "controlId": "AU-2",
+      "text": "Are audit events defined and logged across all systems?",
+      "impact": "Audit logging is essential for security monitoring",
+      "category": "Audit and Accountability",
+      "findingTemplate": {
+        "title": "Insufficient audit logging",
+        "description": "Systems do not have proper audit event logging configured",
+        "severity": "high",
+        "recommendation": "Define and implement comprehensive audit logging",
+        "category": "Audit and Accountability",
+        "nistControl": "AU-2"
+      }
+    },
+    {
+      "id": "AU-3-Q1",
+      "controlId": "AU-3",
+      "text": "Do audit records contain sufficient information for forensic analysis?",
+      "impact": "Detailed audit records enable incident investigation",
+      "category": "Audit and Accountability",
+      "findingTemplate": {
+        "title": "Insufficient audit record content",
+        "description": "Audit records lack necessary detail for forensic analysis",
+        "severity": "high",
+        "recommendation": "Configure audit logging to capture all required information",
+        "category": "Audit and Accountability",
+        "nistControl": "AU-3"
+      }
+    },
+    {
+      "id": "AU-6-Q1",
+      "controlId": "AU-6",
+      "text": "Is there a process for regular audit log review and analysis?",
+      "impact": "Regular log review helps detect security incidents",
+      "category": "Audit and Accountability",
+      "findingTemplate": {
+        "title": "Inadequate audit log review",
+        "description": "Organization lacks regular audit log review process",
+        "severity": "high",
+        "recommendation": "Implement regular audit log review procedures",
+        "category": "Audit and Accountability",
+        "nistControl": "AU-6"
+      }
+    },
+    {
+      "id": "AU-8-Q1",
+      "controlId": "AU-8",
+      "text": "Are system clocks synchronized across all systems for accurate timestamps?",
+      "impact": "Time synchronization ensures accurate event correlation",
+      "category": "Audit and Accountability",
+      "findingTemplate": {
+        "title": "Lack of time synchronization",
+        "description": "System clocks not properly synchronized",
+        "severity": "medium",
+        "recommendation": "Implement NTP or similar time synchronization",
+        "category": "Audit and Accountability",
+        "nistControl": "AU-8"
+      }
+    },
+    {
+      "id": "AU-9-Q1",
+      "controlId": "AU-9",
+      "text": "Are audit records protected from unauthorized access and modification?",
+      "impact": "Protected audit records maintain integrity of security monitoring",
+      "category": "Audit and Accountability",
+      "findingTemplate": {
+        "title": "Unprotected audit records",
+        "description": "Audit records not adequately protected from tampering",
+        "severity": "high",
+        "recommendation": "Implement audit record protection mechanisms",
+        "category": "Audit and Accountability",
+        "nistControl": "AU-9"
+      }
+    },
+    {
+      "id": "CM-2-Q1",
+      "controlId": "CM-2",
+      "text": "Is there a documented baseline configuration for all systems?",
+      "impact": "Baseline configurations ensure consistent security",
+      "category": "Configuration Management",
+      "findingTemplate": {
+        "title": "Missing baseline configurations",
+        "description": "Systems lack documented baseline configurations",
+        "severity": "high",
+        "recommendation": "Develop and maintain baseline configurations for all systems",
+        "category": "Configuration Management",
+        "nistControl": "CM-2"
+      }
+    },
+    {
+      "id": "CM-3-Q1",
+      "controlId": "CM-3",
+      "text": "Is there a change management process for system modifications?",
+      "impact": "Change management prevents unauthorized changes",
+      "category": "Configuration Management",
+      "findingTemplate": {
+        "title": "Inadequate change management",
+        "description": "Organization lacks proper change management process",
+        "severity": "high",
+        "recommendation": "Implement formal change management procedures",
+        "category": "Configuration Management",
+        "nistControl": "CM-3"
+      }
+    },
+    {
+      "id": "CM-6-Q1",
+      "controlId": "CM-6",
+      "text": "Are configuration settings monitored and controlled?",
+      "impact": "Configuration control maintains security posture",
+      "category": "Configuration Management",
+      "findingTemplate": {
+        "title": "Insufficient configuration control",
+        "description": "Configuration settings not properly monitored or controlled",
+        "severity": "high",
+        "recommendation": "Implement configuration monitoring and control",
+        "category": "Configuration Management",
+        "nistControl": "CM-6"
+      }
+    },
+    {
+      "id": "CM-7-Q1",
+      "controlId": "CM-7",
+      "text": "Is the principle of least functionality enforced through application whitelisting?",
+      "impact": "Least functionality reduces attack surface",
+      "category": "Configuration Management",
+      "findingTemplate": {
+        "title": "Missing application whitelisting",
+        "description": "Systems do not enforce least functionality through whitelisting",
+        "severity": "high",
+        "recommendation": "Implement application whitelisting",
+        "category": "Configuration Management",
+        "nistControl": "CM-7"
+      }
+    },
+    {
+      "id": "IA-2-Q1",
+      "controlId": "IA-2",
+      "text": "Is multi-factor authentication required for all privileged accounts?",
+      "impact": "MFA protects privileged access from compromise",
+      "category": "Identification and Authentication",
+      "findingTemplate": {
+        "title": "Missing MFA for privileged accounts",
+        "description": "Privileged accounts not protected by multi-factor authentication",
+        "severity": "critical",
+        "recommendation": "Implement MFA for all privileged account access",
+        "category": "Identification and Authentication",
+        "nistControl": "IA-2"
+      }
+    },
+    {
+      "id": "IA-4-Q1",
+      "controlId": "IA-4",
+      "text": "Are unique identifiers assigned to all system users?",
+      "impact": "Unique identifiers ensure accountability",
+      "category": "Identification and Authentication",
+      "findingTemplate": {
+        "title": "Non-unique user identifiers",
+        "description": "System users not assigned unique identifiers",
+        "severity": "high",
+        "recommendation": "Implement unique identifier assignment process",
+        "category": "Identification and Authentication",
+        "nistControl": "IA-4"
+      }
+    },
+    {
+      "id": "IA-5-Q1",
+      "controlId": "IA-5",
+      "text": "Are password complexity and lifetime restrictions enforced?",
+      "impact": "Strong passwords reduce risk of compromise",
+      "category": "Identification and Authentication",
+      "findingTemplate": {
+        "title": "Weak password requirements",
+        "description": "Password policies do not enforce adequate complexity or rotation",
+        "severity": "high",
+        "recommendation": "Implement strong password policies",
+        "category": "Identification and Authentication",
+        "nistControl": "IA-5"
+      }
+    },
+    {
+      "id": "IR-4-Q1",
+      "controlId": "IR-4",
+      "text": "Is there an incident handling capability in place?",
+      "impact": "Incident handling ensures proper response to security events",
+      "category": "Incident Response",
+      "findingTemplate": {
+        "title": "Missing incident handling capability",
+        "description": "Organization lacks proper incident handling procedures",
+        "severity": "high",
+        "recommendation": "Establish incident handling capability",
+        "category": "Incident Response",
+        "nistControl": "IR-4"
+      }
+    },
+    {
+      "id": "IR-5-Q1",
+      "controlId": "IR-5",
+      "text": "Are security incidents tracked and documented?",
+      "impact": "Incident tracking enables trend analysis and improvement",
+      "category": "Incident Response",
+      "findingTemplate": {
+        "title": "Inadequate incident tracking",
+        "description": "Security incidents not properly tracked and documented",
+        "severity": "high",
+        "recommendation": "Implement incident tracking system",
+        "category": "Incident Response",
+        "nistControl": "IR-5"
+      }
+    },
+    {
+      "id": "IR-6-Q1",
+      "controlId": "IR-6",
+      "text": "Is there a process for incident reporting?",
+      "impact": "Incident reporting ensures timely response",
+      "category": "Incident Response",
+      "findingTemplate": {
+        "title": "Missing incident reporting process",
+        "description": "Organization lacks formal incident reporting procedures",
+        "severity": "high",
+        "recommendation": "Establish incident reporting procedures",
+        "category": "Incident Response",
+        "nistControl": "IR-6"
+      }
+    },
+    {
+      "id": "SC-7-Q1",
+      "controlId": "SC-7",
+      "text": "Are boundary protection mechanisms implemented?",
+      "impact": "Boundary protection prevents unauthorized network access",
+      "category": "System and Communications Protection",
+      "findingTemplate": {
+        "title": "Insufficient boundary protection",
+        "description": "System boundaries lack proper protection mechanisms",
+        "severity": "high",
+        "recommendation": "Implement boundary protection controls",
+        "category": "System and Communications Protection",
+        "nistControl": "SC-7"
+      }
+    },
+    {
+      "id": "SC-8-Q1",
+      "controlId": "SC-8",
+      "text": "Is transmission confidentiality and integrity protected?",
+      "impact": "Protected transmission prevents data compromise",
+      "category": "System and Communications Protection",
+      "findingTemplate": {
+        "title": "Unprotected data transmission",
+        "description": "Data transmission lacks confidentiality and integrity protection",
+        "severity": "high",
+        "recommendation": "Implement transmission protection mechanisms",
+        "category": "System and Communications Protection",
+        "nistControl": "SC-8"
+      }
+    },
+    {
+      "id": "SC-12-Q1",
+      "controlId": "SC-12",
+      "text": "Are cryptographic keys properly managed throughout their lifecycle?",
+      "impact": "Key management ensures cryptographic security",
+      "category": "System and Communications Protection",
+      "findingTemplate": {
+        "title": "Inadequate cryptographic key management",
+        "description": "Cryptographic keys not properly managed",
+        "severity": "high",
+        "recommendation": "Implement cryptographic key management procedures",
+        "category": "System and Communications Protection",
+        "nistControl": "SC-12"
+      }
+    },
+    {
+      "id": "SC-13-Q1",
+      "controlId": "SC-13",
+      "text": "Are FIPS-validated or NSA-approved cryptography used?",
+      "impact": "Approved cryptography ensures adequate protection",
+      "category": "System and Communications Protection",
+      "findingTemplate": {
+        "title": "Non-approved cryptography",
+        "description": "System uses non-approved cryptographic algorithms",
+        "severity": "high",
+        "recommendation": "Implement FIPS-validated cryptography",
+        "category": "System and Communications Protection",
+        "nistControl": "SC-13"
+      }
+    },
+    {
+      "id": "SI-2-Q1",
+      "controlId": "SI-2",
+      "text": "Are system flaws identified and corrected?",
+      "impact": "Flaw remediation prevents exploitation",
+      "category": "System and Information Integrity",
+      "findingTemplate": {
+        "title": "Inadequate flaw remediation",
+        "description": "System flaws not properly identified and corrected",
+        "severity": "high",
+        "recommendation": "Implement flaw remediation process",
+        "category": "System and Information Integrity",
+        "nistControl": "SI-2"
+      }
+    },
+    {
+      "id": "SI-3-Q1",
+      "controlId": "SI-3",
+      "text": "Is malicious code protection implemented and updated?",
+      "impact": "Malware protection prevents system compromise",
+      "category": "System and Information Integrity",
+      "findingTemplate": {
+        "title": "Insufficient malware protection",
+        "description": "Systems lack adequate malicious code protection",
+        "severity": "high",
+        "recommendation": "Implement comprehensive malware protection",
+        "category": "System and Information Integrity",
+        "nistControl": "SI-3"
+      }
+    },
+    {
+      "id": "SI-4-Q1",
+      "controlId": "SI-4",
+      "text": "Is system monitoring capability implemented?",
+      "impact": "Monitoring detects potential security violations",
+      "category": "System and Information Integrity",
+      "findingTemplate": {
+        "title": "Insufficient system monitoring",
+        "description": "System lacks proper monitoring capability",
+        "severity": "high",
+        "recommendation": "Implement comprehensive system monitoring",
+        "category": "System and Information Integrity",
+        "nistControl": "SI-4"
+      }
+    },
+    {
+      "id": "SI-5-Q1",
+      "controlId": "SI-5",
+      "text": "Are security alerts and advisories monitored and acted upon?",
+      "impact": "Security alerts enable timely response to threats",
+      "category": "System and Information Integrity",
+      "findingTemplate": {
+        "title": "Inadequate security alert monitoring",
+        "description": "Organization does not properly monitor or respond to security alerts",
+        "severity": "high",
+        "recommendation": "Implement security alert monitoring and response procedures",
+        "category": "System and Information Integrity",
+        "nistControl": "SI-5"
+      }
+    }
+  ]
+}

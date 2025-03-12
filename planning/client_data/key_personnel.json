@@ -1,0 +1,49 @@
+{
+  "keyPersonnel": [
+    {
+      "id": 1,
+      "clientId": 1,
+      "departmentId": null,
+      "name": "John Smith",
+      "role": "Primary Contact",
+      "department": "Executive",
+      "title": "CEO"
+    },
+    {
+      "id": 2,
+      "clientId": 1,
+      "departmentId": 1,
+      "name": "David Wilson",
+      "role": "Technology Lead",
+      "department": "Information Technology",
+      "title": "CTO"
+    },
+    {
+      "id": 3,
+      "clientId": 1,
+      "departmentId": 2,
+      "name": "Alice Brown",
+      "role": "Security Lead",
+      "department": "Security Operations",
+      "title": "CISO"
+    },
+    {
+      "id": 4,
+      "clientId": 1,
+      "departmentId": 3,
+      "name": "Michael Chen",
+      "role": "Risk Lead",
+      "department": "Risk & Compliance",
+      "title": "Risk Director"
+    },
+    {
+      "id": 5,
+      "clientId": 1,
+      "departmentId": 4,
+      "name": "Sarah Johnson",
+      "role": "Infrastructure Lead",
+      "department": "Network Operations",
+      "title": "Network Director"
+    }
+  ]
+}

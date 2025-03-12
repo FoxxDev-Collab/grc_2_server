@@ -1,0 +1,65 @@
+{
+  "incidentTypes": [
+    "security",
+    "availability",
+    "performance",
+    "data_breach",
+    "unauthorized_access",
+    "malware",
+    "phishing",
+    "dos",
+    "hardware_failure",
+    "software_failure",
+    "human_error",
+    "other"
+  ],
+  "incidentSeverities": [
+    "critical",
+    "high",
+    "medium",
+    "low"
+  ],
+  "incidentStatuses": [
+    "active",
+    "investigating",
+    "resolved",
+    "closed"
+  ],
+  "incidentPriorities": [
+    "critical",
+    "high",
+    "medium",
+    "low"
+  ],
+  "actionTypes": [
+    "investigation",
+    "containment",
+    "eradication",
+    "recovery",
+    "communication",
+    "documentation",
+    "other"
+  ],
+  "teams": [
+    "Security Operations",
+    "Network Operations",
+    "System Administration",
+    "Development",
+    "Management",
+    "Legal",
+    "PR",
+    "HR",
+    "Other"
+  ],
+  "systemTypes": [
+    "Web Application",
+    "Database",
+    "Network Infrastructure",
+    "Cloud Service",
+    "Desktop Application",
+    "Mobile Application",
+    "IoT Device",
+    "Server",
+    "Other"
+  ]
+}

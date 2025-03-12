@@ -1,0 +1,42 @@
+{
+  "industries": [
+    { "id": 1, "name": "Technology" },
+    { "id": 2, "name": "Healthcare" },
+    { "id": 3, "name": "Financial Services" },
+    { "id": 4, "name": "Manufacturing" },
+    { "id": 5, "name": "Retail" },
+    { "id": 6, "name": "Energy" },
+    { "id": 7, "name": "Education" },
+    { "id": 8, "name": "Government" },
+    { "id": 9, "name": "Non-Profit" }
+  ],
+  "clientSizes": [
+    { "id": 1, "name": "Small" },
+    { "id": 2, "name": "Medium" },
+    { "id": 3, "name": "Large" },
+    { "id": 4, "name": "Enterprise" }
+  ],
+  "clientStatuses": [
+    { "id": 1, "name": "active" },
+    { "id": 2, "name": "inactive" },
+    { "id": 3, "name": "suspended" },
+    { "id": 4, "name": "pending" }
+  ],
+  "documentCategories": [
+    { "id": 1, "name": "Policies" },
+    { "id": 2, "name": "Procedures" },
+    { "id": 3, "name": "Compliance" },
+    { "id": 4, "name": "Reports" },
+    { "id": 5, "name": "Training" },
+    { "id": 6, "name": "Documentation" },
+    { "id": 7, "name": "General" }
+  ],
+  "documentTypes": [
+    { "id": 1, "name": "PDF" },
+    { "id": 2, "name": "DOCX" },
+    { "id": 3, "name": "XLSX" },
+    { "id": 4, "name": "PPT" },
+    { "id": 5, "name": "TXT" },
+    { "id": 6, "name": "ZIP" }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "scanResults": [
+    {
+      "id": "scan-001",
+      "type": "STIG Scan",
+      "date": "2025-02-15T10:00:00Z",
+      "findings": {
+        "high": 2,
+        "medium": 5,
+        "low": 8
+      },
+      "status": "Completed",
+      "downloadUrl": "#",
+      "detailsUrl": "#",
+      "clientId": 1,
+      "systemId": "sys-001",
+      "assessmentPlanId": "ap-001",
+      "createdAt": "2025-02-15T10:00:00Z",
+      "updatedAt": "2025-02-15T10:00:00Z"
+    },
+    {
+      "id": "scan-002",
+      "type": "SCAP Scan",
+      "date": "2025-02-01T14:30:00Z",
+      "findings": {
+        "high": 1,
+        "medium": 3,
+        "low": 6
+      },
+      "status": "Completed",
+      "downloadUrl": "#",
+      "detailsUrl": "#",
+      "clientId": 1,
+      "systemId": "sys-001",
+      "assessmentPlanId": "ap-001",
+      "createdAt": "2025-02-01T14:30:00Z",
+      "updatedAt": "2025-02-01T14:30:00Z"
+    }
+  ]
+}
