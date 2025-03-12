@@ -6,6 +6,7 @@ import {
   OneToMany,
 } from 'typeorm';
 import { ClientUser } from './client-user.entity';
+import { OrganizationUnit } from './organization-structure.entity';
 
 export interface Address {
   street?: string;
@@ -60,6 +61,12 @@ export class Client {
   @Column({ nullable: true })
   website: string;
 
+  @Column({ nullable: true })
+  annualRevenue: string;
+
   @OneToMany(() => ClientUser, (clientUser: ClientUser) => clientUser.client)
   users: ClientUser[];
+
+  @OneToMany(() => OrganizationUnit, (orgUnit: OrganizationUnit) => orgUnit.client)
+  organizationUnits: OrganizationUnit[];
 }
