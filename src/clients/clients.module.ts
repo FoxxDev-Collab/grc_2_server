@@ -7,7 +7,10 @@ import { Client } from './entities/client.entity';
 import { ClientUser } from './entities/client-user.entity';
 import { OrganizationUnit } from './entities/organization-structure.entity';
 import { CompanyDocument } from './entities/company-document.entity';
+import { Asset } from './entities/asset.entity';
 import { DocumentStorageService } from './services/document-storage.service';
+import { AssetService } from './services/asset.service';
+import { AssetController } from './controllers/asset.controller';
 
 @Module({
   imports: [
@@ -16,6 +19,7 @@ import { DocumentStorageService } from './services/document-storage.service';
       ClientUser,
       OrganizationUnit,
       CompanyDocument,
+      Asset,
     ]),
     MulterModule.register({
       limits: {
@@ -23,8 +27,8 @@ import { DocumentStorageService } from './services/document-storage.service';
       },
     }),
   ],
-  controllers: [ClientsController],
-  providers: [ClientsService, DocumentStorageService],
-  exports: [ClientsService],
+  controllers: [ClientsController, AssetController],
+  providers: [ClientsService, DocumentStorageService, AssetService],
+  exports: [ClientsService, AssetService],
 })
 export class ClientsModule {}

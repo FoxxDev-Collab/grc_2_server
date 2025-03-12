@@ -26,10 +26,10 @@ import { SystemsModule } from './systems/systems.module';
           throw new Error('Database configuration not found');
         }
         
-        // Set synchronize to true to create tables automatically
+        // Disable synchronize to rely on migrations for schema changes
         return {
           ...dbConfig,
-          synchronize: true,
+          synchronize: false,
           autoLoadEntities: true,
         };
       },
